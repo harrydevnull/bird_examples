@@ -27,6 +27,7 @@ Vagrant.configure("2") do |config|
       chef.nodes_path = "nodes"
       chef.roles_path = "roles"
       chef.synced_folder_type = "rsync"
+      chef.version = "14.12.9"
     end
   end
 
@@ -40,6 +41,7 @@ Vagrant.configure("2") do |config|
       chef.nodes_path = "nodes"
       chef.roles_path = "roles"
       chef.synced_folder_type = "rsync"
+      chef.version = "14.12.9"
     end
   end
 end
